@@ -1,7 +1,7 @@
 {
-  "name": "SocialEye MindMap",
+  "name": "socialeye-mindmap",
   "version": "1.0.0",
-  "description": "A map of your interests  Powered By Ethereum",
+  "description": "Blockchain Mind Map Powered By Ethereum",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"

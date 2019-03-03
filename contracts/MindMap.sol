@@ -12,6 +12,9 @@ contract MindMap {
         string url;
     }
 
+    constructor() public {
+        createNeuron("Initialized");
+    }
     mapping(uint => Neuron) public neurons;
 
     // Neuron created event

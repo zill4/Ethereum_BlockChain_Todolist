@@ -54,11 +54,11 @@ App = {
       },
 
       loadContract: async () => {
-            const neuron = await $.getJSON('Neuron.json')
-            App.contracts.Neuron = TruffleContract(neuron)
-            App.contracts.Neuron.setProvider(App.web3Provider)
+            const mindMap = await $.getJSON('MindMap.json')
+            App.contracts.MindMap = TruffleContract(mindMap)
+            App.contracts.MindMap.setProvider(App.web3Provider)
             // Hydrate the smart contract with values from the blockchain
-            App.neuron = await App.contracts.Nueron.deployed()
+            App.mindMap = await App.contracts.MindMap.deployed()
         },
     // Render is an async function.
       render: async () => {
@@ -78,7 +78,7 @@ App = {
       createNeuron: async () => {
         App.setLoading(true)
         const content = $('#newNeuron').val()
-        await App.neuron.createNeuron(url)
+        await App.mindMap.createNeuron(content)
         // Just reloads the page.
         window.location.reload()
       },
@@ -101,7 +101,7 @@ App = {
     // Rendering the neurons to the screen.
     renderNeurons: async () => {
         // Load the total neuron count from the blockchain.
-        const neuronCount = await App.neuron.neuronCount()
+        const neuronCount = await App.mindMap.neuronCount()
         // Connect to HTML layout for neuron template
         const $neuronTemplate = $('.neuronTemplate')
 
@@ -110,15 +110,15 @@ App = {
         {
             //Start with one since first valid ID
             // Returns an array of items.
-            const neuron = await App.neuron.neurons(i)
+            const neuron = await App.mindMap.neurons(i)
             // uint id number.
             const neuronId = neuron[0].toNumber()
             // string of the content.
-            const neuronUrl = neuron[1]
+            const neuronContent = neuron[1]
 
             // Creat a new neuron template object in html.
             const $newNeuronTemplate = $neuronTemplate.clone()
-            $newNeuronTemplate.find('.url').html(neuronUrl)
+            $newNeuronTemplate.find('.content').html(neuronContent)
             // Wiring a new object for the html to look at.
             $newNeuronTemplate.find('input')
                              .prop('name', neuronId)
