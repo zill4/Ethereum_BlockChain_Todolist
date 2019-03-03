@@ -29,9 +29,11 @@ To get started:
 0. If Truffle is not installed install -> `truffle v5.0.2`
 0. Install and run `Ganache`, make sure it is running on port `HTTP://127.0.0.1:7545`
 0. Make sure to install `MetaMask` as chrome extension `https://metamask.io/`
-0. Make sure to set Custom RPC to `HTTP://127.0.0.1:7545` <iframe src="https://drive.google.com/file/d/1e3t7OeZczF2hpcp4tNGN1On2i3hCHbNm/preview" width="640" height="480"></iframe>
+0. Make sure to set Custom RPC to `HTTP://127.0.0.1:7545` 
 0. Run `truffle migrate`
 0. Run `npm run dev`
+<img src="https://drive.google.com/file/d/1e3t7OeZczF2hpcp4tNGN1On2i3hCHbNm/preview" width="200">
+
 
 
 ### By CrispCode.io 
