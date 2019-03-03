@@ -29,6 +29,7 @@ To get started:
 0. If Truffle is not installed install -> `truffle v5.0.2`
 0. Install and run `Ganache`, make sure it is running on port `HTTP://127.0.0.1:7545`
 0. Make sure to install `MetaMask` as chrome extension `https://metamask.io/`
+0. Make sure to choose an address in Ganache and copy the keyover to a new account under your the above RPC. 
 0. Make sure to set Custom RPC to `HTTP://127.0.0.1:7545` 
 0. Run `truffle migrate`
 0. Run `npm run dev`

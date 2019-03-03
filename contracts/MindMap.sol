@@ -7,26 +7,27 @@ contract MindMap {
     // A mind map contains a collection of Neuron's
     struct Neuron {
         uint id;
-    // The content of each Neuron
         // The url
-        string url;
+        string content;
     }
 
-    constructor() public {
-        createNeuron("Initialized");
-    }
+
     mapping(uint => Neuron) public neurons;
 
     // Neuron created event
     event NeuronCreated(
         uint id,
-        string url
+        string content
     );
 
-    function createNeuron(string memory _url) public
+    constructor() public {
+        createNeuron("Initialized");
+    }
+
+    function createNeuron(string memory _content) public
     {
         neuronCount ++;
-        neurons[neuronCount] = Neuron(neuronCount, _url);
-        emit NeuronCreated(neuronCount, _url);
+        neurons[neuronCount] = Neuron(neuronCount, _content);
+        emit NeuronCreated(neuronCount, _content);
     }
 }

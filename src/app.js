@@ -123,6 +123,7 @@ App = {
             $newNeuronTemplate.find('input')
                              .prop('name', neuronId)
             // Show the neuron
+            $('#neuronList').append($newNeuronTemplate)
             $newNeuronTemplate.show()
         }
     }

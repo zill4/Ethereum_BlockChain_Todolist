@@ -16,7 +16,7 @@
           "type": "uint256"
         },
         {
-          "name": "url",
+          "name": "content",
           "type": "string"
         }
       ],
@@ -57,7 +57,7 @@
         },
         {
           "indexed": false,
-          "name": "url",
+          "name": "content",
           "type": "string"
         }
       ],
@@ -69,7 +69,7 @@
       "constant": false,
       "inputs": [
         {
-          "name": "_url",
+          "name": "_content",
           "type": "string"
         }
       ],
@@ -81,11 +81,11 @@
       "signature": "0xd12eff50"
     }
   ],
-  "bytecode": "0x60806040526000805534801561001457600080fd5b5060408051808201909152600b81527f496e697469616c697a6564000000000000000000000000000000000000000000602082015261005b90640100000000610060810204565b6101eb565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936100a693908501929190910190610150565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156101125781810151838201526020016100fa565b50505050905090810190601f16801561013f5780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061019157805160ff19168380011785556101be565b828001600101855582156101be579182015b828111156101be5782518255916020019190600101906101a3565b506101ca9291506101ce565b5090565b6101e891905b808211156101ca57600081556001016101d4565b90565b610443806101fa6000396000f3fe6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663595d5f39811461005b578063d12eff5014610104578063fd746b64146101b9575b600080fd5b34801561006757600080fd5b506100856004803603602081101561007e57600080fd5b50356101e0565b6040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100c85781810151838201526020016100b0565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b34801561011057600080fd5b506101b76004803603602081101561012757600080fd5b81019060208101813564010000000081111561014257600080fd5b82018360208201111561015457600080fd5b8035906020019184600183028401116401000000008311171561017657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610286945050505050565b005b3480156101c557600080fd5b506101ce610376565b60408051918252519081900360200190f35b600160208181526000928352604092839020805481840180548651600296821615610100026000190190911695909504601f8101859004850286018501909652858552909491939290919083018282801561027c5780601f106102515761010080835404028352916020019161027c565b820191906000526020600020905b81548152906001019060200180831161025f57829003601f168201915b5050505050905082565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936102cc9390850192919091019061037c565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610338578181015183820152602001610320565b50505050905090810190601f1680156103655780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b60005481565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103bd57805160ff19168380011785556103ea565b828001600101855582156103ea579182015b828111156103ea5782518255916020019190600101906103cf565b506103f69291506103fa565b5090565b61041491905b808211156103f65760008155600101610400565b9056fea165627a7a72305820d64157bcba6b3aeac200e7c0feb96e47c3a7e91ab61735e4cd4ffefbb24c93d60029",
-  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663595d5f39811461005b578063d12eff5014610104578063fd746b64146101b9575b600080fd5b34801561006757600080fd5b506100856004803603602081101561007e57600080fd5b50356101e0565b6040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100c85781810151838201526020016100b0565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b34801561011057600080fd5b506101b76004803603602081101561012757600080fd5b81019060208101813564010000000081111561014257600080fd5b82018360208201111561015457600080fd5b8035906020019184600183028401116401000000008311171561017657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610286945050505050565b005b3480156101c557600080fd5b506101ce610376565b60408051918252519081900360200190f35b600160208181526000928352604092839020805481840180548651600296821615610100026000190190911695909504601f8101859004850286018501909652858552909491939290919083018282801561027c5780601f106102515761010080835404028352916020019161027c565b820191906000526020600020905b81548152906001019060200180831161025f57829003601f168201915b5050505050905082565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936102cc9390850192919091019061037c565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610338578181015183820152602001610320565b50505050905090810190601f1680156103655780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b60005481565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103bd57805160ff19168380011785556103ea565b828001600101855582156103ea579182015b828111156103ea5782518255916020019190600101906103cf565b506103f69291506103fa565b5090565b61041491905b808211156103f65760008155600101610400565b9056fea165627a7a72305820d64157bcba6b3aeac200e7c0feb96e47c3a7e91ab61735e4cd4ffefbb24c93d60029",
-  "sourceMap": "25:666:1:-;;;112:1;86:27;;288:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;319:27:1;;;;;;;;;;;;;;;;;;;:12;;;;:27;:::i;:::-;25:666;;500:189;563:11;:14;;;;;;;;;610:25;;;;;;;;;;;;;;;;;;587:20;;;;;;;;;;:48;;;;;;;;:20;;:48;;;;;;;;;;;;:::i;:::-;;;;;650:32;664:11;;677:4;650:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;650:32:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;500:189;:::o;25:666::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:666:1;;;-1:-1:-1;25:666:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "25:666:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;358:38;;8:9:-1;5:2;;;30:1;27;20:12;5:2;358:38:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;358:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;358:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;500:189;;8:9:-1;5:2;;;30:1;27;20:12;5:2;500:189:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;500:189:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;500:189:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;500:189:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;500:189:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;500:189:1;;-1:-1:-1;500:189:1;;-1:-1:-1;;;;;500:189:1;;;86:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:27:1;;;;;;;;;;;;;;;;;;;;358:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;358:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;500:189::-;563:11;:14;;;;;;;;;610:25;;;;;;;;;;;;;;;;;;587:20;;;;;;;;;;:48;;;;;;;;:20;;:48;;;;;;;;;;;;:::i;:::-;;;;;650:32;664:11;;677:4;650:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;650:32:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;500:189;:::o;86:27::-;;;;:::o;25:666::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:666:1;;;-1:-1:-1;25:666:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract MindMap {\n\n    //Neuron count applied globally.\n    uint public neuronCount = 0;\n    // A mind map contains a collection of Neuron's\n    struct Neuron {\n        uint id;\n    // The content of each Neuron\n        // The url\n        string url;\n    }\n\n    constructor() public {\n        createNeuron(\"Initialized\");\n    }\n    mapping(uint => Neuron) public neurons;\n\n    // Neuron created event\n    event NeuronCreated(\n        uint id,\n        string url\n    );\n\n    function createNeuron(string memory _url) public\n    {\n        neuronCount ++;\n        neurons[neuronCount] = Neuron(neuronCount, _url);\n        emit NeuronCreated(neuronCount, _url);\n    }\n}",
+  "bytecode": "0x60806040526000805534801561001457600080fd5b5060408051808201909152600b81527f496e697469616c697a6564000000000000000000000000000000000000000000602082015261005b90640100000000610060810204565b6101eb565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936100a693908501929190910190610150565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156101125781810151838201526020016100fa565b50505050905090810190601f16801561013f5780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061019157805160ff19168380011785556101be565b828001600101855582156101be579182015b828111156101be5782518255916020019190600101906101a3565b506101ca9291506101ce565b5090565b6101e891905b808211156101ca57600081556001016101d4565b90565b610443806101fa6000396000f3fe6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663595d5f39811461005b578063d12eff5014610104578063fd746b64146101b9575b600080fd5b34801561006757600080fd5b506100856004803603602081101561007e57600080fd5b50356101e0565b6040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100c85781810151838201526020016100b0565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b34801561011057600080fd5b506101b76004803603602081101561012757600080fd5b81019060208101813564010000000081111561014257600080fd5b82018360208201111561015457600080fd5b8035906020019184600183028401116401000000008311171561017657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610286945050505050565b005b3480156101c557600080fd5b506101ce610376565b60408051918252519081900360200190f35b600160208181526000928352604092839020805481840180548651600296821615610100026000190190911695909504601f8101859004850286018501909652858552909491939290919083018282801561027c5780601f106102515761010080835404028352916020019161027c565b820191906000526020600020905b81548152906001019060200180831161025f57829003601f168201915b5050505050905082565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936102cc9390850192919091019061037c565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610338578181015183820152602001610320565b50505050905090810190601f1680156103655780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b60005481565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103bd57805160ff19168380011785556103ea565b828001600101855582156103ea579182015b828111156103ea5782518255916020019190600101906103cf565b506103f69291506103fa565b5090565b61041491905b808211156103f65760008155600101610400565b9056fea165627a7a72305820fe88931178da978e24a6b05fba40952c25b352c6f453bb8ed8f0d392f0d24fdf0029",
+  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663595d5f39811461005b578063d12eff5014610104578063fd746b64146101b9575b600080fd5b34801561006757600080fd5b506100856004803603602081101561007e57600080fd5b50356101e0565b6040518083815260200180602001828103825283818151815260200191508051906020019080838360005b838110156100c85781810151838201526020016100b0565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b50935050505060405180910390f35b34801561011057600080fd5b506101b76004803603602081101561012757600080fd5b81019060208101813564010000000081111561014257600080fd5b82018360208201111561015457600080fd5b8035906020019184600183028401116401000000008311171561017657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610286945050505050565b005b3480156101c557600080fd5b506101ce610376565b60408051918252519081900360200190f35b600160208181526000928352604092839020805481840180548651600296821615610100026000190190911695909504601f8101859004850286018501909652858552909491939290919083018282801561027c5780601f106102515761010080835404028352916020019161027c565b820191906000526020600020905b81548152906001019060200180831161025f57829003601f168201915b5050505050905082565b600080546001908101808355604080518082018252828152602080820187815293865284815291909420845181559151805192936102cc9390850192919091019061037c565b509050507f184afbf9959bb24a5a11281c9cea133a0099a4542f0dd193031fca80c450c157600054826040518083815260200180602001828103825283818151815260200191508051906020019080838360005b83811015610338578181015183820152602001610320565b50505050905090810190601f1680156103655780820380516001836020036101000a031916815260200191505b50935050505060405180910390a150565b60005481565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103bd57805160ff19168380011785556103ea565b828001600101855582156103ea579182015b828111156103ea5782518255916020019190600101906103cf565b506103f69291506103fa565b5090565b61041491905b808211156103f65760008155600101610400565b9056fea165627a7a72305820fe88931178da978e24a6b05fba40952c25b352c6f453bb8ed8f0d392f0d24fdf0029",
+  "sourceMap": "25:654:1:-;;;112:1;86:27;;405:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;436:27:1;;;;;;;;;;;;;;;;;;;:12;;;;:27;:::i;:::-;25:654;;476:201;543:11;:14;;;;;;;;;590:29;;;;;;;;;;;;;;;;;;567:20;;;;;;;;;;:52;;;;;;;;:20;;:52;;;;;;;;;;;;:::i;:::-;;;;;634:36;648:11;;661:8;634:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;634:36:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;476:201;:::o;25:654::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:654:1;;;-1:-1:-1;25:654:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "25:654:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;259:38;;8:9:-1;5:2;;;30:1;27;20:12;5:2;259:38:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;259:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;259:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;476:201;;8:9:-1;5:2;;;30:1;27;20:12;5:2;476:201:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;476:201:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;476:201:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;476:201:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;476:201:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;476:201:1;;-1:-1:-1;476:201:1;;-1:-1:-1;;;;;476:201:1;;;86:27;;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:27:1;;;;;;;;;;;;;;;;;;;;259:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;259:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;476:201::-;543:11;:14;;;;;;;;;590:29;;;;;;;;;;;;;;;;;;567:20;;;;;;;;;;:52;;;;;;;;:20;;:52;;;;;;;;;;;;:::i;:::-;;;;;634:36;648:11;;661:8;634:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;634:36:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;476:201;:::o;86:27::-;;;;:::o;25:654::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;25:654:1;;;-1:-1:-1;25:654:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract MindMap {\n\n    //Neuron count applied globally.\n    uint public neuronCount = 0;\n    // A mind map contains a collection of Neuron's\n    struct Neuron {\n        uint id;\n        // The url\n        string content;\n    }\n\n\n    mapping(uint => Neuron) public neurons;\n\n    // Neuron created event\n    event NeuronCreated(\n        uint id,\n        string content\n    );\n\n    constructor() public {\n        createNeuron(\"Initialized\");\n    }\n\n    function createNeuron(string memory _content) public\n    {\n        neuronCount ++;\n        neurons[neuronCount] = Neuron(neuronCount, _content);\n        emit NeuronCreated(neuronCount, _content);\n    }\n}",
   "sourcePath": "/home/jcrisp/development/Apps/SocialEye_2/contracts/MindMap.sol",
   "ast": {
     "absolutePath": "/home/jcrisp/development/Apps/SocialEye_2/contracts/MindMap.sol",
@@ -197,10 +197,10 @@
               {
                 "constant": false,
                 "id": 65,
-                "name": "url",
+                "name": "content",
                 "nodeType": "VariableDeclaration",
                 "scope": 66,
-                "src": "265:10:1",
+                "src": "231:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -211,7 +211,7 @@
                   "id": 64,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "265:6:1",
+                  "src": "231:6:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -224,14 +224,130 @@
             "name": "Neuron",
             "nodeType": "StructDefinition",
             "scope": 108,
-            "src": "171:111:1",
+            "src": "171:81:1",
             "visibility": "public"
           },
           {
+            "constant": false,
+            "id": 70,
+            "name": "neurons",
+            "nodeType": "VariableDeclaration",
+            "scope": 108,
+            "src": "259:38:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
+              "typeString": "mapping(uint256 => struct MindMap.Neuron)"
+            },
+            "typeName": {
+              "id": 69,
+              "keyType": {
+                "id": 67,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "267:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "259:23:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
+                "typeString": "mapping(uint256 => struct MindMap.Neuron)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 68,
+                "name": "Neuron",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 66,
+                "src": "275:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Neuron_$66_storage_ptr",
+                  "typeString": "struct MindMap.Neuron"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "anonymous": false,
+            "documentation": null,
+            "id": 76,
+            "name": "NeuronCreated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 72,
+                  "indexed": false,
+                  "name": "id",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 76,
+                  "src": "361:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 71,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "361:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 74,
+                  "indexed": false,
+                  "name": "content",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 76,
+                  "src": "378:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 73,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "378:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "351:47:1"
+            },
+            "src": "332:67:1"
+          },
+          {
             "body": {
-              "id": 73,
+              "id": 83,
               "nodeType": "Block",
-              "src": "309:44:1",
+              "src": "426:44:1",
               "statements": [
                 {
                   "expression": {
@@ -240,14 +356,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "496e697469616c697a6564",
-                        "id": 70,
+                        "id": 80,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "332:13:1",
+                        "src": "449:13:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_d2a9b5158cff4d129f58e3e9cb6a13e2414f0ef74f94537777267284c43bba3b",
@@ -263,18 +379,18 @@
                           "typeString": "literal_string \"Initialized\""
                         }
                       ],
-                      "id": 69,
+                      "id": 79,
                       "name": "createNeuron",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 107,
-                      "src": "319:12:1",
+                      "src": "436:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
                       }
                     },
-                    "id": 71,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -282,164 +398,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "319:27:1",
+                    "src": "436:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 72,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "319:27:1"
+                  "src": "436:27:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 74,
+            "id": 84,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 67,
+              "id": 77,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "299:2:1"
+              "src": "416:2:1"
             },
             "returnParameters": {
-              "id": 68,
+              "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "309:0:1"
+              "src": "426:0:1"
             },
             "scope": 108,
-            "src": "288:65:1",
+            "src": "405:65:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
-            "constant": false,
-            "id": 78,
-            "name": "neurons",
-            "nodeType": "VariableDeclaration",
-            "scope": 108,
-            "src": "358:38:1",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
-              "typeString": "mapping(uint256 => struct MindMap.Neuron)"
-            },
-            "typeName": {
-              "id": 77,
-              "keyType": {
-                "id": 75,
-                "name": "uint",
-                "nodeType": "ElementaryTypeName",
-                "src": "366:4:1",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                }
-              },
-              "nodeType": "Mapping",
-              "src": "358:23:1",
-              "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
-                "typeString": "mapping(uint256 => struct MindMap.Neuron)"
-              },
-              "valueType": {
-                "contractScope": null,
-                "id": 76,
-                "name": "Neuron",
-                "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 66,
-                "src": "374:6:1",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Neuron_$66_storage_ptr",
-                  "typeString": "struct MindMap.Neuron"
-                }
-              }
-            },
-            "value": null,
-            "visibility": "public"
-          },
-          {
-            "anonymous": false,
-            "documentation": null,
-            "id": 84,
-            "name": "NeuronCreated",
-            "nodeType": "EventDefinition",
-            "parameters": {
-              "id": 83,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 80,
-                  "indexed": false,
-                  "name": "id",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 84,
-                  "src": "460:7:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 79,
-                    "name": "uint",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "460:4:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 82,
-                  "indexed": false,
-                  "name": "url",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 84,
-                  "src": "477:10:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 81,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "477:6:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "450:43:1"
-            },
-            "src": "431:63:1"
-          },
-          {
             "body": {
               "id": 106,
               "nodeType": "Block",
-              "src": "553:136:1",
+              "src": "533:144:1",
               "statements": [
                 {
                   "expression": {
@@ -452,7 +452,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "563:14:1",
+                    "src": "543:14:1",
                     "subExpression": {
                       "argumentTypes": null,
                       "id": 89,
@@ -460,7 +460,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 61,
-                      "src": "563:11:1",
+                      "src": "543:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -473,7 +473,7 @@
                   },
                   "id": 91,
                   "nodeType": "ExpressionStatement",
-                  "src": "563:14:1"
+                  "src": "543:14:1"
                 },
                 {
                   "expression": {
@@ -491,8 +491,8 @@
                         "name": "neurons",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 78,
-                        "src": "587:7:1",
+                        "referencedDeclaration": 70,
+                        "src": "567:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
                           "typeString": "mapping(uint256 => struct MindMap.Neuron storage ref)"
@@ -506,7 +506,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 61,
-                        "src": "595:11:1",
+                        "src": "575:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -517,7 +517,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "587:20:1",
+                      "src": "567:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Neuron_$66_storage",
                         "typeString": "struct MindMap.Neuron storage ref"
@@ -535,7 +535,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 61,
-                          "src": "617:11:1",
+                          "src": "597:11:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -544,11 +544,11 @@
                         {
                           "argumentTypes": null,
                           "id": 97,
-                          "name": "_url",
+                          "name": "_content",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 86,
-                          "src": "630:4:1",
+                          "src": "610:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -571,7 +571,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 66,
-                        "src": "610:6:1",
+                        "src": "590:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Neuron_$66_storage_ptr_$",
                           "typeString": "type(struct MindMap.Neuron storage pointer)"
@@ -585,13 +585,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "610:25:1",
+                      "src": "590:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Neuron_$66_memory",
                         "typeString": "struct MindMap.Neuron memory"
                       }
                     },
-                    "src": "587:48:1",
+                    "src": "567:52:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Neuron_$66_storage",
                       "typeString": "struct MindMap.Neuron storage ref"
@@ -599,7 +599,7 @@
                   },
                   "id": 100,
                   "nodeType": "ExpressionStatement",
-                  "src": "587:48:1"
+                  "src": "567:52:1"
                 },
                 {
                   "eventCall": {
@@ -612,7 +612,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 61,
-                        "src": "664:11:1",
+                        "src": "648:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -621,11 +621,11 @@
                       {
                         "argumentTypes": null,
                         "id": 103,
-                        "name": "_url",
+                        "name": "_content",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 86,
-                        "src": "677:4:1",
+                        "src": "661:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -647,8 +647,8 @@
                       "name": "NeuronCreated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 84,
-                      "src": "650:13:1",
+                      "referencedDeclaration": 76,
+                      "src": "634:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (uint256,string memory)"
@@ -662,7 +662,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "650:32:1",
+                    "src": "634:36:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -670,7 +670,7 @@
                   },
                   "id": 105,
                   "nodeType": "EmitStatement",
-                  "src": "645:37:1"
+                  "src": "629:41:1"
                 }
               ]
             },
@@ -688,10 +688,10 @@
                 {
                   "constant": false,
                   "id": 86,
-                  "name": "_url",
+                  "name": "_content",
                   "nodeType": "VariableDeclaration",
                   "scope": 107,
-                  "src": "522:18:1",
+                  "src": "498:22:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -702,7 +702,7 @@
                     "id": 85,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "522:6:1",
+                    "src": "498:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -712,26 +712,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "521:20:1"
+              "src": "497:24:1"
             },
             "returnParameters": {
               "id": 88,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "553:0:1"
+              "src": "533:0:1"
             },
             "scope": 108,
-            "src": "500:189:1",
+            "src": "476:201:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 109,
-        "src": "25:666:1"
+        "src": "25:654:1"
       }
     ],
-    "src": "0:691:1"
+    "src": "0:679:1"
   },
   "legacyAST": {
     "absolutePath": "/home/jcrisp/development/Apps/SocialEye_2/contracts/MindMap.sol",
@@ -843,10 +843,10 @@
               {
                 "constant": false,
                 "id": 65,
-                "name": "url",
+                "name": "content",
                 "nodeType": "VariableDeclaration",
                 "scope": 66,
-                "src": "265:10:1",
+                "src": "231:14:1",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -857,7 +857,7 @@
                   "id": 64,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "265:6:1",
+                  "src": "231:6:1",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -870,14 +870,130 @@
             "name": "Neuron",
             "nodeType": "StructDefinition",
             "scope": 108,
-            "src": "171:111:1",
+            "src": "171:81:1",
             "visibility": "public"
           },
           {
+            "constant": false,
+            "id": 70,
+            "name": "neurons",
+            "nodeType": "VariableDeclaration",
+            "scope": 108,
+            "src": "259:38:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
+              "typeString": "mapping(uint256 => struct MindMap.Neuron)"
+            },
+            "typeName": {
+              "id": 69,
+              "keyType": {
+                "id": 67,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "267:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "259:23:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
+                "typeString": "mapping(uint256 => struct MindMap.Neuron)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 68,
+                "name": "Neuron",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 66,
+                "src": "275:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Neuron_$66_storage_ptr",
+                  "typeString": "struct MindMap.Neuron"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "anonymous": false,
+            "documentation": null,
+            "id": 76,
+            "name": "NeuronCreated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 72,
+                  "indexed": false,
+                  "name": "id",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 76,
+                  "src": "361:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 71,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "361:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 74,
+                  "indexed": false,
+                  "name": "content",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 76,
+                  "src": "378:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 73,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "378:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "351:47:1"
+            },
+            "src": "332:67:1"
+          },
+          {
             "body": {
-              "id": 73,
+              "id": 83,
               "nodeType": "Block",
-              "src": "309:44:1",
+              "src": "426:44:1",
               "statements": [
                 {
                   "expression": {
@@ -886,14 +1002,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "496e697469616c697a6564",
-                        "id": 70,
+                        "id": 80,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "332:13:1",
+                        "src": "449:13:1",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_d2a9b5158cff4d129f58e3e9cb6a13e2414f0ef74f94537777267284c43bba3b",
@@ -909,18 +1025,18 @@
                           "typeString": "literal_string \"Initialized\""
                         }
                       ],
-                      "id": 69,
+                      "id": 79,
                       "name": "createNeuron",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 107,
-                      "src": "319:12:1",
+                      "src": "436:12:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory)"
                       }
                     },
-                    "id": 71,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -928,164 +1044,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "319:27:1",
+                    "src": "436:27:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 72,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "319:27:1"
+                  "src": "436:27:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 74,
+            "id": 84,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 67,
+              "id": 77,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "299:2:1"
+              "src": "416:2:1"
             },
             "returnParameters": {
-              "id": 68,
+              "id": 78,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "309:0:1"
+              "src": "426:0:1"
             },
             "scope": 108,
-            "src": "288:65:1",
+            "src": "405:65:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
-            "constant": false,
-            "id": 78,
-            "name": "neurons",
-            "nodeType": "VariableDeclaration",
-            "scope": 108,
-            "src": "358:38:1",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
-              "typeString": "mapping(uint256 => struct MindMap.Neuron)"
-            },
-            "typeName": {
-              "id": 77,
-              "keyType": {
-                "id": 75,
-                "name": "uint",
-                "nodeType": "ElementaryTypeName",
-                "src": "366:4:1",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                }
-              },
-              "nodeType": "Mapping",
-              "src": "358:23:1",
-              "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
-                "typeString": "mapping(uint256 => struct MindMap.Neuron)"
-              },
-              "valueType": {
-                "contractScope": null,
-                "id": 76,
-                "name": "Neuron",
-                "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 66,
-                "src": "374:6:1",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Neuron_$66_storage_ptr",
-                  "typeString": "struct MindMap.Neuron"
-                }
-              }
-            },
-            "value": null,
-            "visibility": "public"
-          },
-          {
-            "anonymous": false,
-            "documentation": null,
-            "id": 84,
-            "name": "NeuronCreated",
-            "nodeType": "EventDefinition",
-            "parameters": {
-              "id": 83,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 80,
-                  "indexed": false,
-                  "name": "id",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 84,
-                  "src": "460:7:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 79,
-                    "name": "uint",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "460:4:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 82,
-                  "indexed": false,
-                  "name": "url",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 84,
-                  "src": "477:10:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_string_memory_ptr",
-                    "typeString": "string"
-                  },
-                  "typeName": {
-                    "id": 81,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "477:6:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage_ptr",
-                      "typeString": "string"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "450:43:1"
-            },
-            "src": "431:63:1"
-          },
-          {
             "body": {
               "id": 106,
               "nodeType": "Block",
-              "src": "553:136:1",
+              "src": "533:144:1",
               "statements": [
                 {
                   "expression": {
@@ -1098,7 +1098,7 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "563:14:1",
+                    "src": "543:14:1",
                     "subExpression": {
                       "argumentTypes": null,
                       "id": 89,
@@ -1106,7 +1106,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 61,
-                      "src": "563:11:1",
+                      "src": "543:11:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1119,7 +1119,7 @@
                   },
                   "id": 91,
                   "nodeType": "ExpressionStatement",
-                  "src": "563:14:1"
+                  "src": "543:14:1"
                 },
                 {
                   "expression": {
@@ -1137,8 +1137,8 @@
                         "name": "neurons",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 78,
-                        "src": "587:7:1",
+                        "referencedDeclaration": 70,
+                        "src": "567:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Neuron_$66_storage_$",
                           "typeString": "mapping(uint256 => struct MindMap.Neuron storage ref)"
@@ -1152,7 +1152,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 61,
-                        "src": "595:11:1",
+                        "src": "575:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1163,7 +1163,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "587:20:1",
+                      "src": "567:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Neuron_$66_storage",
                         "typeString": "struct MindMap.Neuron storage ref"
@@ -1181,7 +1181,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 61,
-                          "src": "617:11:1",
+                          "src": "597:11:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1190,11 +1190,11 @@
                         {
                           "argumentTypes": null,
                           "id": 97,
-                          "name": "_url",
+                          "name": "_content",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 86,
-                          "src": "630:4:1",
+                          "src": "610:8:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
                             "typeString": "string memory"
@@ -1217,7 +1217,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 66,
-                        "src": "610:6:1",
+                        "src": "590:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Neuron_$66_storage_ptr_$",
                           "typeString": "type(struct MindMap.Neuron storage pointer)"
@@ -1231,13 +1231,13 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "610:25:1",
+                      "src": "590:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Neuron_$66_memory",
                         "typeString": "struct MindMap.Neuron memory"
                       }
                     },
-                    "src": "587:48:1",
+                    "src": "567:52:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Neuron_$66_storage",
                       "typeString": "struct MindMap.Neuron storage ref"
@@ -1245,7 +1245,7 @@
                   },
                   "id": 100,
                   "nodeType": "ExpressionStatement",
-                  "src": "587:48:1"
+                  "src": "567:52:1"
                 },
                 {
                   "eventCall": {
@@ -1258,7 +1258,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 61,
-                        "src": "664:11:1",
+                        "src": "648:11:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1267,11 +1267,11 @@
                       {
                         "argumentTypes": null,
                         "id": 103,
-                        "name": "_url",
+                        "name": "_content",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 86,
-                        "src": "677:4:1",
+                        "src": "661:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -1293,8 +1293,8 @@
                       "name": "NeuronCreated",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 84,
-                      "src": "650:13:1",
+                      "referencedDeclaration": 76,
+                      "src": "634:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (uint256,string memory)"
@@ -1308,7 +1308,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "650:32:1",
+                    "src": "634:36:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
@@ -1316,7 +1316,7 @@
                   },
                   "id": 105,
                   "nodeType": "EmitStatement",
-                  "src": "645:37:1"
+                  "src": "629:41:1"
                 }
               ]
             },
@@ -1334,10 +1334,10 @@
                 {
                   "constant": false,
                   "id": 86,
-                  "name": "_url",
+                  "name": "_content",
                   "nodeType": "VariableDeclaration",
                   "scope": 107,
-                  "src": "522:18:1",
+                  "src": "498:22:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1348,7 +1348,7 @@
                     "id": 85,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "522:6:1",
+                    "src": "498:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1358,26 +1358,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "521:20:1"
+              "src": "497:24:1"
             },
             "returnParameters": {
               "id": 88,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "553:0:1"
+              "src": "533:0:1"
             },
             "scope": 108,
-            "src": "500:189:1",
+            "src": "476:201:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 109,
-        "src": "25:666:1"
+        "src": "25:654:1"
       }
     ],
-    "src": "0:691:1"
+    "src": "0:679:1"
   },
   "compiler": {
     "name": "solc",
@@ -1396,7 +1396,7 @@
             },
             {
               "indexed": false,
-              "name": "url",
+              "name": "content",
               "type": "string"
             }
           ],
@@ -1406,12 +1406,12 @@
         }
       },
       "links": {},
-      "address": "0x041D51422349B7898135CE4E601b7AA4531d8d97",
-      "transactionHash": "0xcc7d5cce47027d0bce16d6e2cedddb0a0803928ec2e93fb1fa1112071a4f4eeb"
+      "address": "0x7e38fA327677647FD5633feeCB79D4d6b9d9c2fA",
+      "transactionHash": "0xc106ca87ec71148d2fad2a470f33889859e42d240666a302ca8f2584b301ec92"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-03-03T08:29:17.949Z",
+  "updatedAt": "2019-03-03T08:55:00.146Z",
   "devdoc": {
     "methods": {}
   },
