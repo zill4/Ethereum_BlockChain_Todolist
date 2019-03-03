@@ -1,7 +1,4 @@
 # Social_EYE
-### Getting started
-
-You can download a self-contained prebuilt Ganache binary for your platform of choice using the "Download" button on the [Ganache](http://truffleframework.com/ganache/) website, or from this repository's [releases](https://github.com/trufflesuite/ganache/releases) page.
 
 ### Contributing
 
@@ -24,6 +21,7 @@ Using:
 - `ganache`
 - `MetaMask`
 
+### Getting started
 To get started:
 
 0. Clone this repo
@@ -36,6 +34,6 @@ To get started:
 0. Run `npm run dev`
 
 
-### By Truffle
+### By CrispCode.io 
 
-Ganache is part of the Truffle suite of tools. [Find out more!](http://truffleframework.com)
+Follow Justin Crisp's programming projects [Find out more!](https://www.crispcode.io/)
