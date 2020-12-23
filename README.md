@@ -1,4 +1,4 @@
-# Social_EYE
+# Simple BlockChain todolist
 
 ### Contributing
 
